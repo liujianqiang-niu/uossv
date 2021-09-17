@@ -1,0 +1,9 @@
+prefix=/usr
+libdir=/usr/lib/
+includedir=/usr/include/libuossv
+
+Name: libuossv
+Description: sign for linglong
+Version: 1.0
+Libs: -L${libdir} -luossv
+Cflags: -I${includedir}
